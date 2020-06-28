@@ -1,3 +1,60 @@
+html, body {
+  margin:0;
+  height: 100vh;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+  background-color: white;
+}
+
+.topnav {
+  width: 100%;
+  background-color:#134f5cff;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.title-nav a{
+  float:left;
+  padding-left:50px; 
+  padding-top:7px; 
+  width: 60px;
+  height:70px; 
+}
+
+.main-nav{
+  float:right;
+  padding-top: 15px;
+  padding-right:10px; 
+}
+
+.main-nav a {
+  padding-right: 15px; 
+  padding-left: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  float: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  text-align: center;
+  border-color: white;
+  border: 5px soild black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main-nav a:hover {
+  background-color: #134f5c;
+  color: white;
+  border-radius: 50px; 
+}
+
+.main-nav a.active {
+  background-color: #134f5c;
+  color: white;
+}
+
 .main{
     padding:50px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
@@ -23,4 +80,11 @@
 
 .example{
   justify-content: center;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    padding:1em;
+    background-color: #d8d5d5;
+  
 }
